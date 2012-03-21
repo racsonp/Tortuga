@@ -71,10 +71,10 @@
     <Content Include="Content\jquery.mobile-1.0.1.min.css" />
     <Content Include="Content\jquery.mobile.structure-1.0.1.css" />
     <Content Include="Content\jquery.mobile.structure-1.0.1.min.css" />
+    <Content Include="login.aspx" />
     <Content Include="Resources\colorAndrea.css" />
     <Content Include="contact.html" />
     <Content Include="Default.html" />
-    <Content Include="Login.aspx" />
     <Content Include="Private\AjaxDemo.aspx" />
     <Content Include="reset.css" />
     <Content Include="Resources\bootstrap\css\bootstrap-responsive.css" />
@@ -102,6 +102,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Private\AjaxDemo.aspx.cs">
       <DependentUpon>AjaxDemo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
