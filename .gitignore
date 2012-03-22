@@ -24,6 +24,10 @@ repositories.config
 *.resharper.user
 *.ReSharper.user
 */_Resharper.*/
+_ReSharper.*
+*.resharper
+
+
 
 # IDEA
 .idea/workspace.xml
